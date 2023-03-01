@@ -148,7 +148,7 @@ table {
 main{
   height: 100vh;
 }
-body {
+.landing-body {
   font-family: 'Times New Roman', Times, serif;
   line-height: 1.5;
   font-size: 16px;
@@ -263,6 +263,20 @@ ol li {
   padding: 0.5rem 0 0.5rem 1rem;
 }
 /* error */
+.error-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--background);
+  font-size: 4rem;
+  height: 100vh;
+  /* background-color: var(--primery); */
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(156, 153, 153),
+    rgba(231, 116, 35)
+  );
+}
 .error-header{
   background-image: linear-gradient(rgba(0,0,0,0.6) 60%,
   rgba(231, 116, 35,1));
