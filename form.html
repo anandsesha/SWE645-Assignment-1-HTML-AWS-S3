@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/media/stylesheets/form-style.css" />
+    <link rel="stylesheet" href="assets/media/stylesheets/form-style.css" />
     <title>Application</title>
   </head>
   <body class="container">
     <header>
       <h3>Students survey form</h3>
+      <h6>
+        (Required Fields are indiacated by a
+        <span class="star">*</span>
+        mark)
+      </h6> 
     </header>
     <main>
       <form action="index.html" method="post">
@@ -17,7 +22,7 @@
           <!-- Text boxes for first name, last name, street address, city, state, zip, telephone number, e-mail, 
             and date of survey, which are required fields. -->
           <div>
-            <label for="name">Name :</label>
+            <label for="name">Name : <span class="star">*</span></label>
             <input
               class="form-control"
               id="name"
@@ -37,7 +42,7 @@
             />
           </div>
           <div>
-            <label for="Address">Address :</label>
+            <label for="Address">Address : <span class="star">*</span></label>
             <input
               class="form-control"
               id="Street"
@@ -68,7 +73,7 @@
             />
           </div>
           <div>
-            <label for="contact">Contact :</label>
+            <label for="contact">Contact : <span class="star">*</span></label>
             <input
               class="form-control"
               id="Email"
@@ -87,7 +92,7 @@
             />
           </div>
           <div>
-            <label for="DOS">Date of servey :</label>
+            <label for="DOS">Date of servey : <span class="star">*</span></label>
             <input
               class="form-control"
               id="DOS"
