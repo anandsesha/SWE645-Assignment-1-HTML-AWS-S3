@@ -156,9 +156,23 @@ body {
   );
 }
 h3 {
-  font-size: 24px;
+  font-size: 32px;
   color: var(--secondary);
   text-shadow: 1px 1px rgb(234, 96, 5);
+}
+.header-navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 24px;
+  margin-right: 45px;
+  color: var(--background);
+  border: solid 1px var(--background);
+  border-radius: 10px;
+}
+.header-navbar a:hover {
+  text-decoration: none;
+  padding: 5px 20px;
+  color: var(--secondary);
 }
 .form-control {
   display: block;
